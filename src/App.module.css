@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Changa;
+
+ 
+}
+body{
+  background-color: #f3f4f5;
+
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  align-items: flex-start;
+
+}
+.navBar{
+  width: 240px;
+  background-color: #0a96c4;
+  display: flex;
+  position: sticky;
+  left:  0;
+  top: 0;
+  height: 100vh;
+
+  flex-direction: column;
+  font-size: 2rem;
+  font-weight: bold;
+  
+ 
+}
+.comp{
+  margin: 40px;
+  margin-left: 33px;
+  list-style: none;
+  
+}
+
+.aa{
+
+  
+ text-decoration: none; 
+  border-radius:30px ;
+  padding: 5px 40px;
+  color :#ffff;
+  
+}
+
+
+
+.aa:hover{ 
+  background-color: #ffff;
+  color : #0a96c4;
+}
+.AllSection{
+  width: 100%;
+  list-style:none;
+  display:flex;
+  flex-direction: column;
+}
+.home{
+  
+  height: 30px;
+  background-color: #ffff;
+  border: rgb(232, 226, 219);
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between ;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 40px;
+  list-style: none;
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);;
+  direction: rtl;
+  margin-top: 20px;
+
+}
+.home li  {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1.4rem;
+  font-family: 'Almarai', sans-serif;
+  font-weight: 300;
+}
+.Orders{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ 
+  margin:0 40px;
+}
+.Table{
+  box-sizing: 0 8px 44px 0 rgba(0,0,0,0.2);;
+  background-color: #ffff;
+  border: rgb(232, 226, 219);
+  border-radius: 40px;
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);;
+  padding:40px 60px;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  color:black;
+  font-family: Changa;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 30px;
+}
+.PayOrder{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  
+}
+.AllPrice{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  direction: rtl;
+}
+
+.pay{
+  margin: 20px auto;
+  background-color: #3db3da;
+  padding: 30px 110px;
+  border-radius: 20px;
+  border: 0px;
+  font-size: 2rem;
+
+}
+.pay:active{
+  background-color: #ffff;
+  
+}
